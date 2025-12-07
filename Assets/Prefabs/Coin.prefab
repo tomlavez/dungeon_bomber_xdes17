@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 4776258652748232227}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Destructible
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -244,4 +244,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   coinValue: 10
   somDaMoeda: {fileID: 8300000, guid: 4e6325ba95787094db3b8f24358fc9f2, type: 3}
-  volumeDoSom: 200

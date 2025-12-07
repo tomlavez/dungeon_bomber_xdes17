@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 19591087123762118}
   - component: {fileID: 1303299690365029961}
   - component: {fileID: 2417672204192238765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DestructibleBlockReinforced
   m_TagString: Destructible
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571384442973699709}
   - component: {fileID: 2271909373885001780}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4082462663956238105}
   - component: {fileID: 4183982664801016569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Destructible
   m_Icon: {fileID: 0}

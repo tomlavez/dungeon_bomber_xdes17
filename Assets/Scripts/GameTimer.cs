@@ -12,8 +12,19 @@ public class GameTimer : MonoBehaviour
 
     void Start()
     {
+        ResetTimer();
+    }
+
+    /// <summary>
+    /// Reseta o timer para o tempo inicial.
+    /// </summary>
+    public void ResetTimer()
+    {
         currentTime = startTime;
+        timerRunning = true;
+        gameEnded = false;
         UpdateTimerUI();
+        Debug.Log($"[GameTimer] Timer reset to {startTime} seconds");
     }
 
     void Update()

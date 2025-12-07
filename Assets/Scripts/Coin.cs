@@ -5,6 +5,11 @@ public class Coin : MonoBehaviour
     [SerializeField] int coinValue = 10;
     [SerializeField] AudioClip somDaMoeda;
 
+    public int GetCoinValue()
+    {
+        return coinValue;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

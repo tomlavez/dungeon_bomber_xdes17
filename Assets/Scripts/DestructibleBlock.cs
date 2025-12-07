@@ -8,6 +8,12 @@ public class DestructibleBlockReinforced : MonoBehaviour
     [SerializeField] Sprite damagedSprite;
     private SpriteRenderer spriteRenderer;
 
+    // Public getter for health
+    public int GetHealth()
+    {
+        return health;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,6 +25,13 @@ public class DestructibleBlockReinforced : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            // Notifica o NavGrid que este bloco foi destruído
+            NavGrid navGrid = FindFirstObjectByType<NavGrid>();
+            if (navGrid != null)
+            {
+                navGrid.UpdateNodeAfterDestruction(transform.position);
+            }
+
             Destroy(gameObject);
         }
         else if (damagedSprite != null)

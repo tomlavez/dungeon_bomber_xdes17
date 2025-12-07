@@ -202,9 +202,9 @@ GameObject:
   - component: {fileID: 6969038825046186326}
   - component: {fileID: 4246159902218041078}
   - component: {fileID: 4659002491149887870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bomba
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -268,4 +268,3 @@ MonoBehaviour:
   tempoParaExplodir: 3
   prefabDaExplosao: {fileID: 200194185966616764, guid: a609315855b958244aa6669664d8244b, type: 3}
   somDaExplosao: {fileID: 8300000, guid: b48da29dcfb07f94489cd75178233799, type: 3}
-  volumeDoSom: 4

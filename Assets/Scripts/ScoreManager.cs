@@ -29,6 +29,14 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreUI();
     }
 
+    // Função para resetar o score (útil ao carregar uma fase no editor)
+    public void ResetScore()
+    {
+        score = 0;
+        UpdateScoreUI();
+        Debug.Log("Score reset to 0");
+    }
+
     // Atualiza a UI
     void UpdateScoreUI()
     {

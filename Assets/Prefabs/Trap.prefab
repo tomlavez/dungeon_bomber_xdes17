@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2478097869560049375}
   - component: {fileID: 3509566696564670812}
   - component: {fileID: 4630754248242813127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trap
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,7 +84,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7492339924709666959}
   - component: {fileID: 8932603149759457462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6193984830791633301}
   - component: {fileID: 3842047020523060650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
