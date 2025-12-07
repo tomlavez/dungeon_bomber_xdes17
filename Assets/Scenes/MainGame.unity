@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play
+  m_text: Play AI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2521,7 +2521,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Edit Mode
+  m_text: Play Player
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7849,10 +7849,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af366637463adbf48b5de7030ade81ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  xSpeed: 0
-  ySpeed: 0
+  xSpeed: 100
+  ySpeed: 100
   bombaPrefab: {fileID: 7706508352960935152, guid: 5373aa427609c9c459bb36a50b1e717f, type: 3}
-  bombRate: 0
+  bombRate: 3
   health: 3
   currentHealth: 0
   invulnerabilityTime: 1
@@ -7893,7 +7893,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189102832}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -7993,7 +7993,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189102832}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 523f76f1b6f44444db62dcfe268ffa01, type: 3}
   m_Name: 
@@ -8611,7 +8611,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 596277431}
         m_TargetAssemblyTypeName: LevelEditor, Assembly-CSharp
-        m_MethodName: EnableEditMode
+        m_MethodName: PlayEditedLevelAsPlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
